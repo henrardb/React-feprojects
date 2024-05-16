@@ -21,3 +21,11 @@
   align-items: center;
   cursor: pointer;
 }
+
+input[type="button"] {
+  background-color: brown;
+  color: white;
+  padding: 15px;
+  border: 10px solid;
+  cursor: pointer;
+}
