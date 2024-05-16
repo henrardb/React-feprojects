@@ -1,0 +1,12 @@
+.starRating {
+  color: blue;
+  font-size: 3em;
+}
+
+.selected {
+  color: yellow;
+}
+
+.notSelected {
+  color: black;
+}
