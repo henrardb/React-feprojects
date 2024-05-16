@@ -1,12 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./app.css";
-import Accordion from "./components/Accordion/Accordion";
+//import Accordion from "./components/Accordion/Accordion";
+import RandomColor from "./components/Random Color/RandomColor";
 
 function App() {
   return (
     <div className="app">
-      <Accordion />
+      {/*<Accordion />*/}
+      <RandomColor />
     </div>
   );
 }

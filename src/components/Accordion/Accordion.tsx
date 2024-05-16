@@ -1,6 +1,6 @@
 import { useState } from "react";
 import data from "./data";
-import "./styles.css";
+import "./accordion.css";
 
 export default function Accordion() {
   const [selected, setSelected] = useState("");
