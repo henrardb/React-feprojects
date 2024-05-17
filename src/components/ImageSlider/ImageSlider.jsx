@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./ImageSlider.css";
+import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 export default function ImageSlider({ siteUrl, page, limit }) {
   const [isLoading, setIsLoading] = useState(false);
